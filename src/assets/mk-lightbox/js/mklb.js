@@ -64,6 +64,9 @@ document.addEventListener("DOMContentLoaded", function(){
         let video = document.createElement('video');
         video.setAttribute('autoplay', true);
         video.setAttribute('controls', true);
+        if (item.hasAttribute('data-video-muted')) {
+            video.muted = true;
+        }
         let source = document.createElement('source');
         source.src = item.dataset.videoSrc;
         source.type = 'video/mp4';
