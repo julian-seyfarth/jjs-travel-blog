@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/mk-lightbox/css/mklb.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/mk-lightbox/js/mklb.js"
+            ]
           },
           "configurations": {
             "production": {
