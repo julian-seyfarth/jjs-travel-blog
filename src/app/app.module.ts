@@ -3,15 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { BlogPostTestComponent } from './components/posts/blog-post-test/blog-post-test.component';
+import { JulyTwentyTwoComponent } from './components/posts/july-twenty-two/july-twenty-two.component';
 import { JulyThirtyComponent } from './components/posts/july-thirty/july-thirty.component';
+import { TestComponentComponent } from './components/test/test-component/test-component.component';
+import { AugustTwoComponent } from './components/posts/august-two/august-two.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BlogPostTestComponent,
-    JulyThirtyComponent
+    JulyTwentyTwoComponent,
+    JulyThirtyComponent,
+    TestComponentComponent,
+    AugustTwoComponent
   ],
   imports: [
     BrowserModule

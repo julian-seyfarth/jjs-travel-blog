@@ -15,6 +15,13 @@ body {
   font-weight: 100;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+}
+
 img, video {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -32,4 +39,8 @@ img, video {
 p {
   margin: 0 30px 30px 30px;
   max-width: 600px;
+}
+
+.hidden {
+  display: none;
 }
