@@ -8,6 +8,7 @@ import { JulyThirtyComponent } from './components/posts/july-thirty/july-thirty.
 import { TestComponentComponent } from './components/test/test-component/test-component.component';
 import { AugustTwoComponent } from './components/posts/august-two/august-two.component';
 import { AugustSixComponent } from './components/posts/august-six/august-six.component';
+import { AugustSevenComponent } from './components/posts/august-seven/august-seven.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AugustSixComponent } from './components/posts/august-six/august-six.com
     JulyThirtyComponent,
     TestComponentComponent,
     AugustTwoComponent,
-    AugustSixComponent
+    AugustSixComponent,
+    AugustSevenComponent
   ],
   imports: [
     BrowserModule
