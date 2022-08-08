@@ -7,6 +7,7 @@ import { JulyTwentyTwoComponent } from './components/posts/july-twenty-two/july-
 import { JulyThirtyComponent } from './components/posts/july-thirty/july-thirty.component';
 import { TestComponentComponent } from './components/test/test-component/test-component.component';
 import { AugustTwoComponent } from './components/posts/august-two/august-two.component';
+import { AugustSixComponent } from './components/posts/august-six/august-six.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AugustTwoComponent } from './components/posts/august-two/august-two.com
     JulyTwentyTwoComponent,
     JulyThirtyComponent,
     TestComponentComponent,
-    AugustTwoComponent
+    AugustTwoComponent,
+    AugustSixComponent
   ],
   imports: [
     BrowserModule
