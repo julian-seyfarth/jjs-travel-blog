@@ -68,7 +68,7 @@ section.imageContainer {
     max-width: 75vw;
     width: auto;
     height: auto;
-    muted: true;
+    position: relative;
 }
 
 #mkLightboxContainer #yt-video {
