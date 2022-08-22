@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { LightgalleryModule } from 'lightgallery/angular';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { JulyTwentyTwoComponent } from './components/posts/july-twenty-two/july-twenty-two.component';
@@ -22,7 +24,8 @@ import { AugustSevenComponent } from './components/posts/august-seven/august-sev
     AugustSevenComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    LightgalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]

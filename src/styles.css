@@ -1,9 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.0.0-beta.4/css/lightgallery.css');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+.lg-outer * { /* für die lightbox damit sich die Bilder dort nicht verschieben */
+  text-align: initial;
+}
+
+.lg-outer img, video {
+  margin: 0 0 0 0;
+}
+
+.lg-sub-html { /* für die lightbox damit sich die Bilder dort nicht verschieben */
   text-align: center;
 }
 
