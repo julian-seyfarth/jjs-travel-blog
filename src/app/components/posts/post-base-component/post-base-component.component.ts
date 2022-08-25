@@ -23,7 +23,11 @@ export class PostBaseComponentComponent implements OnInit {
     actualSize: false,
     download: false,
     fullScreen: true,
-    hideScrollbar: true
+    hideScrollbar: true,
+    mobileSettings: { 
+      controls: false, 
+      showCloseIcon: true, 
+      download: false, } 
   };
 
 }
