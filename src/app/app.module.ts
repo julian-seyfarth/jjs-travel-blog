@@ -11,6 +11,7 @@ import { TestComponentComponent } from './components/test/test-component/test-co
 import { AugustTwoComponent } from './components/posts/august-two/august-two.component';
 import { AugustSixComponent } from './components/posts/august-six/august-six.component';
 import { AugustSevenComponent } from './components/posts/august-seven/august-seven.component';
+import { PostBaseComponentComponent } from './components/posts/post-base-component/post-base-component.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AugustSevenComponent } from './components/posts/august-seven/august-sev
     TestComponentComponent,
     AugustTwoComponent,
     AugustSixComponent,
-    AugustSevenComponent
+    AugustSevenComponent,
+    PostBaseComponentComponent
   ],
   imports: [
     BrowserModule,
