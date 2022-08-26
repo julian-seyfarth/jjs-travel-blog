@@ -12,6 +12,7 @@ import { AugustTwoComponent } from './components/posts/august-two/august-two.com
 import { AugustSixComponent } from './components/posts/august-six/august-six.component';
 import { AugustSevenComponent } from './components/posts/august-seven/august-seven.component';
 import { PostBaseComponentComponent } from './components/posts/post-base-component/post-base-component.component';
+import { AugustTwentyFiveComponent } from './components/posts/august-twenty-five/august-twenty-five.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PostBaseComponentComponent } from './components/posts/post-base-compone
     AugustTwoComponent,
     AugustSixComponent,
     AugustSevenComponent,
-    PostBaseComponentComponent
+    PostBaseComponentComponent,
+    AugustTwentyFiveComponent
   ],
   imports: [
     BrowserModule,
