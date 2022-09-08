@@ -14,6 +14,7 @@ import { AugustSevenComponent } from './components/posts/august-seven/august-sev
 import { PostBaseComponentComponent } from './components/posts/post-base-component/post-base-component.component';
 import { AugustTwentyFiveComponent } from './components/posts/august-twenty-five/august-twenty-five.component';
 import { SeptemberOneComponent } from './components/posts/september-one/september-one.component';
+import { SeptemberSixComponent } from './components/posts/september-six/september-six.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SeptemberOneComponent } from './components/posts/september-one/septembe
     AugustSevenComponent,
     PostBaseComponentComponent,
     AugustTwentyFiveComponent,
-    SeptemberOneComponent
+    SeptemberOneComponent,
+    SeptemberSixComponent
   ],
   imports: [
     BrowserModule,
