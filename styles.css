@@ -22,11 +22,11 @@
 header {
   padding: 30px;
   text-align: center;
-  background-color: #33658A; /* #7A6C5D */
+  background-color: #FFB81C; /* #7A6C5D */
 }
 
 h1 {
-  color: #C9F0FF; /* #3d696a */
+  color: #7D4016; /* #3d696a */
 }
 
 .lg-outer * { /* für die lightbox damit sich die Bilder dort nicht verschieben */
